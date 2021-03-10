@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GeneratorCS
 {
-    class RandomNumberGenerator
+    public class RandomNumberGenerator
     {
         private long seed;
 
