@@ -1,0 +1,7 @@
+C:\Users\piotr\source\repos\Piotr601\Platformy-.Net-Java\Zadanie01\bin\Debug\Zadanie01.exe.config
+C:\Users\piotr\source\repos\Piotr601\Platformy-.Net-Java\Zadanie01\bin\Debug\Zadanie01.exe
+C:\Users\piotr\source\repos\Piotr601\Platformy-.Net-Java\Zadanie01\bin\Debug\Zadanie01.pdb
+C:\Users\piotr\source\repos\Piotr601\Platformy-.Net-Java\Zadanie01\obj\Debug\Zadanie01.csproj.CoreCompileInputs.cache
+C:\Users\piotr\source\repos\Piotr601\Platformy-.Net-Java\Zadanie01\obj\Debug\Zadanie01.exe
+C:\Users\piotr\source\repos\Piotr601\Platformy-.Net-Java\Zadanie01\obj\Debug\Zadanie01.pdb
+C:\Users\piotr\source\repos\Piotr601\Platformy-.Net-Java\Zadanie01\obj\Debug\Zadanie01.csprojAssemblyReference.cache
