@@ -56,6 +56,30 @@ namespace Zadanie01
                 }
             }
 
+        // Sortowanie po najwiekszej wartosci
+            int pom2;
+            for (int j = 0; j < obiekty; j++)
+            {
+                for (int i = 0; i < obiekty; i++)
+                {
+                    if (wartosc[i] < wartosc[j])
+                    {
+                        pom2 = wartosc[i];
+                        wartosc[i] = wartosc[j];
+                        wartosc[j] = pom2;
+
+                        pom2 = waga[i];
+                        waga[i] = waga[j];
+                        waga[j] = pom2;
+                    }
+                }
+            }
+
+            Console.WriteLine();
+            for(int i=0; i< obiekty; i++)
+            {
+                Console.WriteLine("{0:D}, {1:D}", wartosc[i], waga[i]);
+            }
         // Sprawdzenie poprawnosci danych
             Console.WriteLine();
             Console.WriteLine("Sprawdzenie");
