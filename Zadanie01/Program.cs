@@ -11,6 +11,7 @@ namespace Zadanie01
     {
         static void Main(string[] args)
         {
+            int pom = 0;
 
             Console.WriteLine("Podaj ile obiektow chcesz wylosowac:");
             int obiekty = int.Parse(Console.ReadLine());
@@ -21,25 +22,43 @@ namespace Zadanie01
             Console.WriteLine("Podaj dowolny seed:");
             int seed = int.Parse(Console.ReadLine());
 
-            RandomNumberGenerator rng = new RandomNumberGenerator(seed); //tutaj tworzymy obiektb
+            // Tworzymy nowy obiekt
+            RandomNumberGenerator rng = new RandomNumberGenerator(seed); 
 
             Console.WriteLine("PROGRAM:");
 
             int[] tablica = new int[obiekty];
 
+            // Tworzymy tablicę obiektów do wyboru
             for (int i=0; i<obiekty; i++)
             {
                 tablica[i] = rng.nextInt(1, 30);
 
                 Console.WriteLine(tablica[i]);
+
+             /*
+              * TEST
+              * Sprawdzenie czy cokolwiek zmieści się do plecaka
+             */ 
+                if (tablica[i] > pojemnosc)
+                {
+                    pom++;
+                    if(pom==obiekty)
+                    { 
+                        Console.WriteLine("Brak rozwiazan");
+                        break;
+                    }
+                }
             }
 
-            // SPRAWDZNIE 
+            // SPRAWDZENIE 
             Console.WriteLine("Sprawdzenie");
             Console.WriteLine("Obiekty = {0:D}", obiekty);
             Console.WriteLine("Pojemnosc = {0:D}", pojemnosc);
             Console.WriteLine("Seed = {0:D}", seed);
+
             Console.WriteLine("Koniec programu");
+            Console.ReadLine();
         }
     }
 }
