@@ -75,11 +75,13 @@ namespace Zadanie01
                 }
             }
 
+        // Wyswietlenie po sortowaniu
             Console.WriteLine();
             for(int i=0; i< obiekty; i++)
             {
                 Console.WriteLine("{0:D}, {1:D}", wartosc[i], waga[i]);
             }
+
         // Sprawdzenie poprawnosci danych
             Console.WriteLine();
             Console.WriteLine("Sprawdzenie");
