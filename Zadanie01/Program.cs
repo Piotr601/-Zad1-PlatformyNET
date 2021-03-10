@@ -72,6 +72,19 @@ namespace Zadanie01
                         waga[i] = waga[j];
                         waga[j] = pom2;
                     }
+                    else if(wartosc[i] == wartosc[j])
+                    {
+                        if(waga[i] > waga[j])
+                        {
+                            pom2 = wartosc[i];
+                            wartosc[i] = wartosc[j];
+                            wartosc[j] = pom2;
+
+                            pom2 = waga[i];
+                            waga[i] = waga[j];
+                            waga[j] = pom2;
+                        }
+                    }
                 }
             }
 
