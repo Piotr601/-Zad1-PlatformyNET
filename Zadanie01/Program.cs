@@ -12,9 +12,7 @@ namespace Zadanie01
     {
         static void Main(string[] args)
         {
-         
         // Wczytywanie danych
-
             Console.WriteLine("Podaj ile obiektow chcesz wylosowac:");
             int obiekty = int.Parse(Console.ReadLine());
 
@@ -29,7 +27,8 @@ namespace Zadanie01
 
             Console.WriteLine();
             Console.WriteLine("PROGRAM:");
-
+        
+        // Zdefiniowanie tablic i zmiennych
             int pom = 0;
             int[] wartosc = new int[obiekty];
             int[] waga = new int[obiekty];
