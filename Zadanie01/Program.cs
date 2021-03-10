@@ -75,6 +75,15 @@ namespace Zadanie01
                 }
             }
 
+        /* CO TRZEBA PORPAWIC
+            W SORTOWANIU:
+                dla wartosci: 
+                    10
+                    32
+                    323
+                zrobic tak by jak sa takie same wartosci sortowalo sie jeszcze po wadze
+        */
+
         // Wyswietlenie po sortowaniu
             Console.WriteLine();
             for(int i=0; i< obiekty; i++)
