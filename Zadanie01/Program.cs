@@ -7,40 +7,46 @@ using GeneratorCS;
 
 namespace Zadanie01
 {
+
     class Program
     {
         static void Main(string[] args)
         {
-            int pom = 0;
+         
+        // Wczytywanie danych
 
             Console.WriteLine("Podaj ile obiektow chcesz wylosowac:");
             int obiekty = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Podaj ile miejsca ma miec plecak:");
+            Console.WriteLine("Podaj limit plecaka");
             int pojemnosc = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Podaj dowolny seed:");
             int seed = int.Parse(Console.ReadLine());
 
-            // Tworzymy nowy obiekt
-            RandomNumberGenerator rng = new RandomNumberGenerator(seed); 
+        // Tworzymy nowy obiekt
+            RandomNumberGenerator rng = new RandomNumberGenerator(seed);
 
+            Console.WriteLine();
             Console.WriteLine("PROGRAM:");
 
-            int[] tablica = new int[obiekty];
+            int pom = 0;
+            int[] wartosc = new int[obiekty];
+            int[] waga = new int[obiekty];
 
-            // Tworzymy tablicę obiektów do wyboru
+        // Losujemy obiekty: wartosc i wage
             for (int i=0; i<obiekty; i++)
             {
-                tablica[i] = rng.nextInt(1, 30);
+                wartosc[i] = rng.nextInt(1, 50);
+                waga[i] = rng.nextInt(1, 30);
 
-                Console.WriteLine(tablica[i]);
-
+                Console.WriteLine("{0:D}, {1:D}", wartosc[i], waga[i]);
+                
              /*
               * TEST
               * Sprawdzenie czy cokolwiek zmieści się do plecaka
              */ 
-                if (tablica[i] > pojemnosc)
+                if (wartosc[i] > pojemnosc)
                 {
                     pom++;
                     if(pom==obiekty)
@@ -51,7 +57,8 @@ namespace Zadanie01
                 }
             }
 
-            // SPRAWDZENIE 
+        // Sprawdzenie poprawnosci danych
+            Console.WriteLine();
             Console.WriteLine("Sprawdzenie");
             Console.WriteLine("Obiekty = {0:D}", obiekty);
             Console.WriteLine("Pojemnosc = {0:D}", pojemnosc);
