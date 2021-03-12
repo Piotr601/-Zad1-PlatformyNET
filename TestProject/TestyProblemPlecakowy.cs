@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Zadanie01;
 using System;
 
-namespace TestProject
+namespace TestZadanie01
 {
     [TestClass]
     public class TestyProblemPlecakowy

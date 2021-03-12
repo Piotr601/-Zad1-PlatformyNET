@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "49rb7rbDXVxE8ihp9QqSu7+j0mgeZmfGXZjvxSJuqiqeKEJSw/srn+uZnj4vRp+sQIu4vaRVxIFWfnamfXCTPA==",
+  "dgSpecHash": "ezPnIDVV9Tevy/HNvNK/1GT7CPrz0EwCoGkQMXk0vENQ2einSxr+d41yc+66O6Pkk89VTi9sbBtM1d2Kv9Kp+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\TestProject.csproj",
+  "projectFilePath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\TestZadanie01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filip\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
