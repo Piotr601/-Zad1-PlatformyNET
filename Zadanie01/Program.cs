@@ -72,17 +72,21 @@ namespace Zadanie01
                         waga[i] = waga[j];
                         waga[j] = pom2;
                     }
+                    else if(wartosc[i] == wartosc[j])
+                    {
+                        if(waga[i] > waga[j])
+                        {
+                            pom2 = wartosc[i];
+                            wartosc[i] = wartosc[j];
+                            wartosc[j] = pom2;
+
+                            pom2 = waga[i];
+                            waga[i] = waga[j];
+                            waga[j] = pom2;
+                        }
+                    }
                 }
             }
-
-        /* CO TRZEBA PORPAWIC
-            W SORTOWANIU:
-                dla wartosci: 
-                    10
-                    32
-                    323
-                zrobic tak by jak sa takie same wartosci sortowalo sie jeszcze po wadze
-        */
 
         // Wyswietlenie po sortowaniu
             Console.WriteLine();
@@ -90,8 +94,13 @@ namespace Zadanie01
             {
                 Console.WriteLine("{0:D}, {1:D}", wartosc[i], waga[i]);
             }
+        // 10 32 323
 
-        // Sprawdzenie poprawnosci danych
+        // Sprawdzenie algo
+            int wynik = Algorytm(pojemnosc, waga, wartosc, obiekty);
+            Console.WriteLine("WYNIK MAX WARTOSC W PLECAKU: {0:D}",wynik);
+
+            // Sprawdzenie poprawnosci danych
             Console.WriteLine();
             Console.WriteLine("Sprawdzenie");
             Console.WriteLine("Obiekty = {0:D}", obiekty);
@@ -100,6 +109,26 @@ namespace Zadanie01
 
             Console.WriteLine("Koniec programu");
             Console.ReadLine();
+        }
+
+        public static int Algorytm(int pojemnosc, int[] waga, int[] wartosc, int ilosc)
+        {
+            int[,] K = new int[ilosc + 1, pojemnosc + 1];
+
+            for (int i = 0; i <= ilosc; ++i)
+            {
+                for (int w = 0; w <= pojemnosc; ++w)
+                {
+                    if (i == 0 || w == 0)
+                        K[i, w] = 0;
+                    else if (waga[i - 1] <= w)
+                        K[i, w] = Math.Max(wartosc[i - 1] + K[i - 1, w - waga[i - 1]], K[i - 1, w]);
+                    else
+                        K[i, w] = K[i - 1, w];
+                }
+            }
+
+            return K[ilosc, pojemnosc];
         }
     }
 }
