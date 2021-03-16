@@ -1794,7 +1794,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -3690,7 +3690,7 @@
       ]
     },
     "System.Net.Http/4.3.0": {
-      "sha512": "Z1UfSF6dlpCdZdxh6LeoGlYH+q6ptG/iiIWgUUeKhE3DbQACmZkU7Sz2nOX0qdHjz72MOdYRbkSJ5Qwl6sZgvg==",
+      "sha512": "sYg+FtILtRQuYWSIAuNOELwVuVsxVyJGWQyOnlAzhV4xvhyFnON1bAzYYC+jjRW8JREM45R0R5Dgi8MTC5sEwA==",
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
@@ -5657,24 +5657,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\filip\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\piotr\\.nuget\\packages\\": {},
+    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\TestZadanie01.csproj",
-      "projectName": "TestZadanie01",
-      "projectPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\TestZadanie01.csproj",
-      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\obj\\",
+      "projectUniqueName": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\TestProject\\TestProject.csproj",
+      "projectName": "TestProject",
+      "projectPath": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\TestProject\\TestProject.csproj",
+      "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\piotr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5687,8 +5691,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj": {
-              "projectPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj"
+            "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\Zadanie01\\Zadanie01.csproj": {
+              "projectPath": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\Zadanie01\\Zadanie01.csproj"
             }
           }
         }

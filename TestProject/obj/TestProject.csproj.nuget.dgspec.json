@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\TestProject.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\TestProject\\obj\\",
+        "projectPath": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\TestProject\\TestProject.csproj",
+        "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\piotr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -31,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj": {
-                "projectPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj"
+              "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\Zadanie01\\Zadanie01.csproj": {
+                "projectPath": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\Zadanie01\\Zadanie01.csproj"
               }
             }
           }
@@ -83,11 +86,11 @@
         }
       }
     },
-    "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj": {
+    "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\Zadanie01\\Zadanie01.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj",
+        "projectUniqueName": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\Zadanie01\\Zadanie01.csproj",
         "projectName": "Zadanie01",
-        "projectPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj"
+        "projectPath": "C:\\Users\\piotr\\Source\\Repos\\Platformy-.Net-Java\\Filip Branch\\Zadanie01\\Zadanie01.csproj"
       },
       "frameworks": {
         "net472": {}
