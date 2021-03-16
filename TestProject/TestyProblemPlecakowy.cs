@@ -44,17 +44,42 @@ namespace TestZadanie01
         [TestMethod]
         public void TestPrzedmiotNieSpelniaWymagania()
         {
-            Assert.IsTrue(1 > 0);
-        }
-        [TestMethod]
-        public void TestKolejnosciPrzedmiotow()
-        {
-            Assert.IsTrue(1 > 0);
+            int pojemnosc = 2;
+            int[] waga = { 4 };
+            int[] wartosc = { 10 };
+            int obiekty = 1;
+
+            int wynik = Algorytm(pojemnosc, waga, wartosc, obiekty);
+            Assert.IsFalse(wynik > 0);
         }
         [TestMethod]
         public void TestPrzedmiotuDlaKonkretnegoSeed()
         {
-            Assert.IsTrue(1 > 0);
+            // Wzieto seed 323
+            int obiekty = 5;
+            int pojemnosc = 32;
+            int[] wartosc = { 1, 4, 5, 10, 21 };
+            int[] waga = { 15, 5, 22, 9, 28 };
+
+            int wynik = Algorytm(pojemnosc, waga, wartosc, obiekty);
+
+            // Wynik obliczony
+            int wynik_obl = 21;
+            Assert.AreEqual(wynik_obl, wynik);
+        }
+        [TestMethod]
+        public void TestKolejnosciPrzedmiotow()
+        {
+            // Wzieto seed 323
+            int obiekty = 5;
+            int pojemnosc = 32;
+            int[] wartosc = { 4, 1, 21, 10, 5 };
+            int[] waga = { 5, 15, 28, 9, 22 };
+
+            int wynik = Algorytm(pojemnosc, waga, wartosc, obiekty);
+
+            int wynik_obl = 21;
+            Assert.AreEqual(wynik_obl, wynik);
         }
     }
 }
