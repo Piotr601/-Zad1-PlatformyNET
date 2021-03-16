@@ -78,6 +78,7 @@ namespace TestZadanie01
 
             int wynik = Algorytm(pojemnosc, waga, wartosc, obiekty);
 
+            // Porownanie wynikow
             int wynik_obl = 21;
             Assert.AreEqual(wynik_obl, wynik);
         }
