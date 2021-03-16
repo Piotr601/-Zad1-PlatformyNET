@@ -12,3 +12,10 @@ C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\La
 C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01\obj\Debug\Zadanie01.csproj.CoreCompileInputs.cache
 C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01\obj\Debug\Zadanie01.exe
 C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01\obj\Debug\Zadanie01.pdb
+C:\Users\piotr\Source\Repos\Platformy-.Net-Java\D\Zadanie01\bin\Debug\Zadanie01.exe.config
+C:\Users\piotr\Source\Repos\Platformy-.Net-Java\D\Zadanie01\bin\Debug\Zadanie01.exe
+C:\Users\piotr\Source\Repos\Platformy-.Net-Java\D\Zadanie01\bin\Debug\Zadanie01.pdb
+C:\Users\piotr\Source\Repos\Platformy-.Net-Java\D\Zadanie01\obj\Debug\Zadanie01.csprojAssemblyReference.cache
+C:\Users\piotr\Source\Repos\Platformy-.Net-Java\D\Zadanie01\obj\Debug\Zadanie01.csproj.CoreCompileInputs.cache
+C:\Users\piotr\Source\Repos\Platformy-.Net-Java\D\Zadanie01\obj\Debug\Zadanie01.exe
+C:\Users\piotr\Source\Repos\Platformy-.Net-Java\D\Zadanie01\obj\Debug\Zadanie01.pdb

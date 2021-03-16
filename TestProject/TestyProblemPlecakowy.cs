@@ -1,20 +1,19 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Zadanie01;
 using System;
+using Zadanie01DesktopApp;
 
-namespace TestZadanie01
+namespace Zadanie01DesktopApp.Tests
 {
-    [TestClass]
+    [TestClass()]
     public class TestyProblemPlecakowy
     {
-
-        public static int Algorytm(int pojemnosc, int[] waga, int[] wartosc, int ilosc)
+        public static int Algorytm(int backpackCapacity, int[] waga, int[] wartosc, int objectAmount)
         {
-            int[,] K = new int[ilosc + 1, pojemnosc + 1];
+            int[,] K = new int[objectAmount + 1, backpackCapacity + 1];
 
-            for (int i = 0; i <= ilosc; ++i)
+            for (int i = 0; i <= objectAmount; ++i)
             {
-                for (int w = 0; w <= pojemnosc; ++w)
+                for (int w = 0; w <= backpackCapacity; ++w)
                 {
                     if (i == 0 || w == 0)
                         K[i, w] = 0;
@@ -24,37 +23,65 @@ namespace TestZadanie01
                         K[i, w] = K[i - 1, w];
                 }
             }
-
-            return K[ilosc, pojemnosc];
+            return K[objectAmount, backpackCapacity];
         }
 
-        [TestMethod]
-        public void TestPrzedmiotSpelniaWymagania()
+        [TestMethod()]
+        public void Test1()
         {
             // Arrange
-            int pojemnosc = 10;
-            int [] waga = { 10 };
-            int [] wartosc = { 250 };
-            int obiekty = 1;
+            int backpackCapacity = 10;
+            int[] waga = { 10 };
+            int[] wartosc = { 250 };
+            int objectAmount = 1;
             // Act
-            int wynik = Algorytm(pojemnosc, waga, wartosc, obiekty);
+            int wynik = Algorytm(backpackCapacity, waga, wartosc, objectAmount);
             // Assert
             Assert.IsTrue(wynik > 0);
         }
-        [TestMethod]
-        public void TestPrzedmiotNieSpelniaWymagania()
+
+        [TestMethod()]
+        public void Test2()
         {
-            Assert.IsTrue(1 > 0);
+            int backpackCapacity = 2;
+            int[] waga = { 4 };
+            int[] wartosc = { 10 };
+            int objectAmount = 1;
+
+            int wynik = Algorytm(backpackCapacity, waga, wartosc, objectAmount);
+            Assert.IsFalse(wynik > 0);
         }
-        [TestMethod]
-        public void TestKolejnosciPrzedmiotow()
+
+        [TestMethod()]
+        public void Test3()
         {
-            Assert.IsTrue(1 > 0);
+            // Wzieto seed 323
+            int objectAmount = 5;
+            int backpackCapacity = 32;
+            int[] wartosc = { 1, 4, 5, 10, 21 };
+            int[] waga = { 15, 5, 22, 9, 28 };
+
+            int wynik = Algorytm(backpackCapacity, waga, wartosc, objectAmount);
+
+            // Wynik obliczony
+            int wynik_obl = 21;
+            Assert.AreEqual(wynik_obl, wynik);
         }
-        [TestMethod]
-        public void TestPrzedmiotuDlaKonkretnegoSeed()
+
+        [TestMethod()]
+        public void Test4()
         {
-            Assert.IsTrue(1 > 0);
+            // Wzieto seed 323
+            int objectAmount = 5;
+            int backpackCapacity = 32;
+            int[] wartosc = { 4, 1, 21, 10, 5 };
+            int[] waga = { 5, 15, 28, 9, 22 };
+
+            int wynik = Algorytm(backpackCapacity, waga, wartosc, objectAmount);
+
+            // Porownanie wynikow
+            int wynik_obl = 21;
+            Assert.AreEqual(wynik_obl, wynik);
         }
     }
 }
