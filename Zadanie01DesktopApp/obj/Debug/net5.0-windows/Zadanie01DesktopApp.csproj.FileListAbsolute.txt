@@ -16,3 +16,7 @@ C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\La
 C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01DesktopApp\obj\Debug\net5.0-windows\ref\Zadanie01DesktopApp.dll
 C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01DesktopApp\obj\Debug\net5.0-windows\Zadanie01DesktopApp.pdb
 C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01DesktopApp\obj\Debug\net5.0-windows\Zadanie01DesktopApp.genruntimeconfig.cache
+C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01DesktopApp\bin\Debug\net5.0-windows\Zadanie01.exe
+C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01DesktopApp\bin\Debug\net5.0-windows\Zadanie01.pdb
+C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01DesktopApp\bin\Debug\net5.0-windows\Zadanie01.exe.config
+C:\Users\filip\Desktop\STUDIA\Semestr_6\Platformy_programistyczne_.NET_i_Java\Laboratorium\Zad1\Github\Platformy-.Net-Java\Zadanie01DesktopApp\obj\Debug\net5.0-windows\Zadanie01DesktopApp.csproj.CopyComplete

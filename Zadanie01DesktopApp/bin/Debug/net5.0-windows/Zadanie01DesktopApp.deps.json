@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Zadanie01DesktopApp/1.0.0": {
+        "dependencies": {
+          "Zadanie01": "1.0.0"
+        },
         "runtime": {
           "Zadanie01DesktopApp.dll": {}
+        }
+      },
+      "Zadanie01/1.0.0": {
+        "runtime": {
+          "Zadanie01.exe": {}
         }
       }
     }
   },
   "libraries": {
     "Zadanie01DesktopApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zadanie01/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

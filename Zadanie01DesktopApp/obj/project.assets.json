@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "Zadanie01/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Zadanie01.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zadanie01.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Zadanie01/1.0.0": {
+      "type": "project",
+      "path": "../Zadanie01/Zadanie01.csproj",
+      "msbuildProject": "../Zadanie01/Zadanie01.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "Zadanie01 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\filip\\.nuget\\packages\\": {},
@@ -37,7 +55,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj": {
+              "projectPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

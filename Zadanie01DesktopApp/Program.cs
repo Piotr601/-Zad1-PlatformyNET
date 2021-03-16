@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Zadanie01DesktopApp
 {
     static class Program
@@ -11,6 +12,11 @@ namespace Zadanie01DesktopApp
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
+
+        
+        static Form1 objPB;
+
+
         [STAThread]
         static void Main()
         {

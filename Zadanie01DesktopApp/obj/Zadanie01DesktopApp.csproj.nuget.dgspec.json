@@ -30,7 +30,11 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj": {
+                "projectPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -62,6 +66,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj",
+        "projectName": "Zadanie01",
+        "projectPath": "C:\\Users\\filip\\Desktop\\STUDIA\\Semestr_6\\Platformy_programistyczne_.NET_i_Java\\Laboratorium\\Zad1\\Github\\Platformy-.Net-Java\\Zadanie01\\Zadanie01.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

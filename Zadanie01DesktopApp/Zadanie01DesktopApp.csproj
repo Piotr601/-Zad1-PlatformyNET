@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Zadanie01\Zadanie01.csproj" />
+  </ItemGroup>
+
 </Project>
