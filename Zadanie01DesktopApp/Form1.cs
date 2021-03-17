@@ -137,35 +137,41 @@ namespace Zadanie01DesktopApp
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            int objAmount;
-            // jesli da sie przekonwertowac na inta
-            objAmount = Int32.Parse(this.textBox2.Text);
-            if (Convert.ToBoolean(objAmount))
+            if (this.textBox2.Text != string.Empty)
             {
-                objectAmount = objAmount;
-                data2 = true;
-            }
-            else
-            {
-                label6.Text = "0";
-                data2 = false;
+                int objAmount;
+                // jesli da sie przekonwertowac na inta
+                objAmount = Int32.Parse(this.textBox2.Text);
+                if (Convert.ToBoolean(objAmount))
+                {
+                    objectAmount = objAmount;
+                    data2 = true;
+                }
+                else
+                {
+                    label6.Text = "0";
+                    data2 = false;
+                }
             }
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            int seedValue;
-            seedValue = Int32.Parse(this.textBox3.Text);
-            // jesli da sie przekonwertowac na inta
-            if (Convert.ToBoolean(seedValue))
+            if (this.textBox3.Text != string.Empty)
             {
-                seed = seedValue;
-                data3 = true;
-            }
-            else
-            {
-                label6.Text = "0";
-                data3 = false;
+                int seedValue;
+                seedValue = Int32.Parse(this.textBox3.Text);
+                // jesli da sie przekonwertowac na inta
+                if (Convert.ToBoolean(seedValue))
+                {
+                    seed = seedValue;
+                    data3 = true;
+                }
+                else
+                {
+                    label6.Text = "0";
+                    data3 = false;
+                }
             }
         }
  
